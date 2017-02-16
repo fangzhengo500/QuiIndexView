@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.test.quickindexviewlibrary.view.QuickIndexView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/quickIndexView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:toastBackground="@color/color50000000"
+        app:toastHeight="100dp"
+        app:toastTextSize="30sp"
+        app:toastWidth="50dp"/>
+</RelativeLayout>

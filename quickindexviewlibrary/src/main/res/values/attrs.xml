@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="QuickIndexView">
+        <!--右侧索引的字体大小-->
+        <attr name="indexTextSize" format="dimension"/>
+        <!--右侧索引的字体颜色-->
+        <attr name="indexTextColor" format="reference|color"/>
+        <!--右侧索引的字体选中时字体颜色-->
+        <attr name="indexSelectedTextColor" format="reference|color"/>
+
+        <!--中部toast字体大小-->
+        <attr name="toastTextSize" format="dimension"/>
+        <!--中部toast字体颜色-->
+        <attr name="toastTextColor" format="reference|color"/>
+        <!--中部toast背景-->
+        <attr name="toastBackground" format="reference|color"/>
+        <!--中部toast宽度-->
+        <attr name="toastWidth" format="dimension"/>
+        <!--中部toast高度-->
+        <attr name="toastHeight" format="dimension"/>
+
+    </declare-styleable>
+</resources>
